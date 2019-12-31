@@ -27,6 +27,18 @@ s.license           = 'MIT'
 s.author           = { "mjl" => "2994355324@qq.com" }
 s.source           = { :git => "https://github.com/meidaxia321/MJUtils.git", :tag => s.version.to_s }
 
+s.subspec 'Controller' do |ss|
+ss.source_files = 'MJUtils/Classes/Controller/*.{h,m}'
+end
+
+s.subspec 'Model' do |ss|
+ss.source_files = 'MJUtils/Classes/Model/*.{h,m}'
+end
+
+s.subspec 'View' do |ss|
+ss.source_files = 'MJUtils/Classes/View/*.{h,m}'
+end
+
 #s.dependency 'AFNetworking', '~> 3.0.4'
 
 end
