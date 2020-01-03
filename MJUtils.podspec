@@ -10,7 +10,7 @@ s.license     = { :type => "MIT", :file => "LICENSE" }
 
 s.platform = :ios, '9.0'
 s.requires_arc = true
-s.source_files = 'MJUtils'
+s.source_files = 'MJUtils.{h,m}'
 s.public_header_files = 'MJUtils/*.h'
 
 s.ios.deployment_target = '9.0'
